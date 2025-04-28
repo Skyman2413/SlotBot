@@ -1,0 +1,11 @@
+[package]
+name = "SlotBot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+log = "0.4"
+pretty_env_logger = "0.5"
+teloxide = { version = "0.15.0", features = ["macros"] }
+tokio = { version = "1.44.2", features = ["rt", "rt-multi-thread", "macros"] }
